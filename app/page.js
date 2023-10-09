@@ -29,7 +29,7 @@ export default function Home() {
         <ChartCompoent />
       </div>
 
-      <div className="mt-5 grid grid-cols-3 gap-4">
+      <div className="mt-5 grid grid-cols-1 lg:grid-cols-3 gap-4">
         <div className="rounded-[8px] bg-white">
           <div className="border-b border-b-[#bfbfbf66] overflow-hidden py-3 px-[15px] flex items-center justify-between">
             <div className="">Rental Listings</div>
@@ -50,7 +50,7 @@ export default function Home() {
 
                 <div className="flex items-center gap-2 text-accent2 whitespace-nowrap">
                   <div className="">30</div>
-                  <div className="lg:block sm:hidden min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
+                  <div className="min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
                   <div className="min-w-[14px] min-h-[14px]"><UpTrend /></div>
                   <div className="whitespace-nowrap">66% (+10)</div>
                 </div>
@@ -64,7 +64,7 @@ export default function Home() {
 
                 <div className="flex justify-start items-center gap-2 text-accent3 whitespace-nowrap">
                   <div className="">22</div>
-                  <div className="lg:block sm:hidden min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
+                  <div className="min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
                   <div className="min-w-[14px] min-h-[14px]"><DownTrend /></div>
                   <div className="whitespace-nowrap">10% (-2)</div>
                 </div>
@@ -78,7 +78,7 @@ export default function Home() {
 
                 <div className="flex items-center gap-2 text-accent2 whitespace-nowrap">
                   <div className="">30</div>
-                  <div className="lg:block sm:hidden min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
+                  <div className="min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
                   <div className="min-w-[14px] min-h-[14px]"><UpTrend /></div>
                   <div className="whitespace-nowrap">66% (+10)</div>
                 </div>
@@ -107,7 +107,7 @@ export default function Home() {
 
                 <div className="flex items-center gap-2 text-accent2 whitespace-nowrap">
                   <div className="">30</div>
-                  <div className="lg:block sm:hidden min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
+                  <div className="min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
                   <div className="min-w-[14px] min-h-[14px]"><UpTrend /></div>
                   <div className="whitespace-nowrap">66% (+10)</div>
                 </div>
@@ -121,7 +121,7 @@ export default function Home() {
 
                 <div className="flex items-center gap-2 text-accent3 whitespace-nowrap">
                   <div className="">22</div>
-                  <div className="lg:block sm:hidden min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
+                  <div className="min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
                   <div className="min-w-[14px] min-h-[14px]"><DownTrend /></div>
                   <div className="whitespace-nowrap">10% (-2)</div>
                 </div>
@@ -135,7 +135,7 @@ export default function Home() {
 
                 <div className="flex items-center gap-2 text-accent2 whitespace-nowrap">
                   <div className="">30</div>
-                  <div className="lg:block sm:hidden min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
+                  <div className="min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
                   <div className="min-w-[14px] min-h-[14px]"><UpTrend /></div>
                   <div className="whitespace-nowrap">66% (+10)</div>
                 </div>
@@ -163,7 +163,7 @@ export default function Home() {
 
                 <div className="flex items-center gap-2 text-accent2 whitespace-nowrap">
                   <div className="">30</div>
-                  <div className="lg:block sm:hidden min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
+                  <div className="min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
                   <div className="min-w-[14px] min-h-[14px]"><UpTrend /></div>
                   <div className="whitespace-nowrap">66% (+10)</div>
                 </div>
@@ -177,7 +177,7 @@ export default function Home() {
 
                 <div className="flex items-center gap-2 text-accent3 whitespace-nowrap">
                   <div className="">22</div>
-                  <div className="lg:block sm:hidden min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
+                  <div className="min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
                   <div className="min-w-[14px] min-h-[14px]"><DownTrend /></div>
                   <div className="whitespace-nowrap">10% (-2)</div>
                 </div>
@@ -191,7 +191,7 @@ export default function Home() {
 
                 <div className="flex items-center gap-2 text-accent2 whitespace-nowrap">
                   <div className="">30</div>
-                  <div className="lg:block sm:hidden min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
+                  <div className="min-h-[15px] min-w-[1.5px] bg-[#E0E0E0]"></div>
                   <div className="min-w-[14px] min-h-[14px]"><UpTrend /></div>
                   <div className="whitespace-nowrap">66% (+10)</div>
                 </div>

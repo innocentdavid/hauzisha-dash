@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <div className='bg-[#f9f9f9] text-black w-screen h-screen overflow-auto'>
           <Header />
           <main className='flex'>
-            <div className="min-w-[fit-content]"><Sidebar /></div>
+            <div className="min-w-[fit-content] hidden lg:block"><Sidebar /></div>
             <div className='w-full overflow-x-hidden'>{children}</div>
           </main>
         </div>

@@ -45,10 +45,12 @@ export default function SidebarItemParent({ iconLink, title, match }) {
       </div>
 
       {showModal && <div className="w-full ml-[20px] pl-3 flex flex-col gap-3">
-        <div className="flex">Hello</div>
-        <div className="flex">Hello</div>
-        <div className="flex">Hello</div>
-        <div className="flex">Hello</div>
+        <div className="flex">Houses for Rent </div>
+        <div className="flex">Houses for Sale </div>
+        <div className="flex">Furnished Apartments </div>
+        <div className="flex"> Land for Sale</div>
+        <div className="flex"> Under Review</div>
+        <div className="flex"> Rejected </div>
       </div>}
     </div>
   )
