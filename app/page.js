@@ -26,7 +26,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* <ChartCompoent /> */}
+        <ChartCompoent />
       </div>
 
       <div className="mt-5 grid grid-cols-3 gap-4">
