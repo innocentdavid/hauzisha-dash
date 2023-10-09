@@ -12,7 +12,7 @@ export default function Sidebar({ isOpen }) {
     //     setIsDropdownOpen(!isDropdownOpen);
     // };
     return (
-        <div className={`h-[calc(100vh-10vh)] w-full text-grey border-r pt-[25px] ${sidebarClass}`}>
+        <div className={`h-[calc(100vh-10vh)] w-full text-grey border-r pt-[25px]`}>
             <SidebarItems iconLink={"assets/icons/icon-dashboard.svg"} title={"My Dashboard"} path="/" />
             <SidebarItems iconLink={"assets/icons/icon-dashboard.svg"} title={"Analytics"} path="/analytics" />
             <SidebarItemParent iconLink={"assets/icons/icon-dashboard.svg"} title={"My Listings"}
