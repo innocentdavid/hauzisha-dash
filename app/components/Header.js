@@ -21,7 +21,7 @@ export default function Header() {
                 <div className="flex items-center justify-end gap-[10px] md:gap-[38px]">
                     <div>
                         <button className="bg-[#282828] text-white rounded-lg h-[46px] px-[25px] flex items-center gap-2 flex-nowrap text-sm md:text-base min-w-[50px] md:min-w-[150px]">
-                            <span> <Image src="assets/icons/plus.svg" width={24} height={24}/> </span> <span>Add Listing</span>
+                            <span> <Image src="assets/icons/plus.svg" alt="" width={24} height={24}/> </span> <span>Add Listing</span>
                         </button>
                     </div>
 
