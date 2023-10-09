@@ -3,29 +3,29 @@ export default function TableDash() {
     return (
         <div className=" mt-[20px]">
             <h1> Top Listings </h1>
-            <table className="h-[371px] w-[1096px] mx-auto text-[#818183] text-[14px]">
+            <table className="lg:h-[371px] sm:h-[286px] lg:w-[1096px] sm:w-[344px] mx-auto text-[#818183] lg:text-[14px] sm:text-sm ">
                 <thead>
                     <tr>
-                        <th className=" pl-[20px] pt-[14px] pb-[15px] ">
+                        <th className=" lg:pl-[20px] sm:pl-[12.06px] pt-[14px] pb-[15px] ">
                             <div className="flex items-center">
                                 Listings
                                 <img src="assets/icons/arrow.svg" className="h-[5px] w-[10px] ml-[8px]" />
                             </div>
                         </th>
-                        <th className="pl-[209px] pt-[14px] pb-[15px]">
+                        <th className="lg:pl-[209px] sm:pl-[33.12px] pt-[14px] pb-[15px]">
                             <div className="flex items-center">
                                 Contacts
                                 <img src="assets/icons/arrow.svg" className="h-[5px] w-[10px] ml-[8px]" />
                             </div>
 
                         </th>
-                        <th className="pl-[209px] pt-[14px] pb-[15px]">
-                            <div className="flex items-center">
+                        <th className="lg:pl-[209px] sm:pl-[40.64px] lg:pt-[14px] sm:pt-[8.84px] lg:pb-[15px] sm:pb-[9.83px]">
+                            <div className="flex items-center ">
                                 Listing Views
                                 <img src="assets/icons/arrow.svg" className="h-[5px] w-[10px] ml-[2px]" />
                             </div>
                         </th>
-                        <th className="pl-[209px] pr-[134px] pt-[14px] pb-[15px]">
+                        <th className="lg:pl-[209px] sm:pl-[41.52px] pr-[134px] pt-[14px] pb-[15px]">
                             <div className="flex items-center">
                                 Searches
                                 <img src="assets/icons/arrow.svg" className="h-[5px] w-[10px] ml-[8px]" />
@@ -36,38 +36,38 @@ export default function TableDash() {
                 <tbody>
                     <tr className="h-[68px] w-[1096px]">
 
-                        <td className=" pl-[20px] pt-[15px] pb-[17px] ">  <img src="assets/images/table-img.jpg" alt="table-image" className="w-[52.95px] h-[36px]" /> </td>
-                        <td className="py-[25px] pl-[221px]"> 33 </td>
-                        <td className="py-[25px] pl-[268px]"> 40000 </td>
-                        <td className="py-[25px] pl-[255px] pr-[175px]"> 1009 </td>
+                        <td className=" lg:pl-[20px] sm:pl-[12.06px] lg:pt-[15px] sm:pt-[9.47] lg:pb-[17px] sm:pb-[10.73]">  <img src="assets/images/table-img.jpg" alt="table-image" className="lg:w-[52.95px] sm:w-[33.42px] lg:h-[36px] sm:h-[22.72px]" /> </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[221px] sm:pl-[41px]"> 33 </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[268px] sm:pl-[78px]"> 40000 </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[255px] sm:pl-[70.52px] lg:pr-[175px] sm:pr-[43.38px]"> 1009 </td>
                     </tr>
                     <tr className="h-[68px]">
-                        <td className=" pl-[20px] pt-[15px] pb-[17px] "> <img src="assets/images/table-img.jpg" alt="table-image" className="w-[52.95px] h-[36px]" /> </td>
-                        <td className="py-[25px] pl-[221px]"> 33 </td>
-                        <td className="py-[25px] pl-[268px]"> 40000 </td>
-                        <td className="py-[25px] pl-[255px] pr-[175px]"> 1009 </td>
+                        <td className=" lg:pl-[20px] sm:pl-[12.06px] lg:pt-[15px] sm:pt-[9.47] lg:pb-[17px] sm:pb-[10.73] "> <img src="assets/images/table-img.jpg" alt="table-image" className="lg:w-[52.95px] sm:w-[33.42px] lg:h-[36px] sm:h-[22.72px]" /> </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[221px] sm:pl-[41px]"> 33 </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[268px] sm:pl-[78px]"> 40000 </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[255px] sm:pl-[70.52px] lg:pr-[175px] sm:pr-[43.38px]"> 1009 </td>
                     </tr>
                     <tr className="h-[76px]">
-                        <td className=" pl-[20px] pt-[15px] pb-[17px] "> <img src="assets/images/table-img.jpg" alt="table-image" className="w-[52.95px] h-[36px]" /> </td>
-                        <td className="py-[25px] pl-[221px]"> 33 </td>
-                        <td className="py-[25px] pl-[268px]"> 40000 </td>
-                        <td className="py-[25px] pl-[255px] pr-[175px]"> 1009 </td>
+             <td className=" lg:pl-[20px] sm:pl-[12.06px] lg:pt-[15px] sm:pt-[9.47] lg:pb-[17px] sm:pb-[10.73] "> <img src="assets/images/table-img.jpg" alt="table-image" className="lg:w-[52.95px] sm:w-[33.42px] lg:h-[36px] sm:h-[22.72px]" /> </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[221px] sm:pl-[41px]"> 33 </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[268px] sm:pl-[78px]"> 40000 </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[255px] sm:pl-[70.52px]lg: pr-[175px sm:pr-[43.38px]]"> 1009 </td>
                     </tr>
                     <tr className="h-[68px]">
-                        <td className=" pl-[20px] pt-[15px] pb-[17px] "> <img src="assets/images/table-img.jpg" alt="table-image" className="w-[52.95px] h-[36px]" /> </td>
-                        <td className="py-[25px] pl-[221px]"> 33 </td>
-                        <td className="py-[25px] pl-[268px] "> 40000 </td>
-                        <td className="py-[25px] pl-[255px] pr-[175px]"> 1009 </td>
+                        <td className="lg:pl-[20px] sm:pl-[12.06px] lg:pt-[15px] sm:pt-[9.47] lg:pb-[17px] sm:pb-[10.73] "> <img src="assets/images/table-img.jpg" alt="table-image" className="lg:w-[52.95px] sm:w-[33.42px] lg:h-[36px] sm:h-[22.72px]" /> </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[221px] sm:pl-[41px]"> 33 </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[268px] sm:pl-[78px] "> 40000 </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[255px] sm:pl-[70.52px] lg:pr-[175px] sm:pr-[43.38px]"> 1009 </td>
                     </tr>
                     <tr className="h-[6px]">
-                        <td className=" pl-[20px] pt-[15px] pb-[17px] "> <img src="assets/images/table-img.jpg" alt="table-image" className="w-[52.95px] h-[36px]" /> </td>
-                        <td className="py-[25px] pl-[221px]"> 33 </td>
-                        <td className="py-[25px] pl-[268px] "> 40000 </td>
-                        <td className="py-[25px] pl-[255px] pr-[175px]"> 1009 </td>
+                        <td className="lg:pl-[20px] sm:pl-[12.06px] lg:pt-[15px] sm:pt-[9.47] lg:pb-[17px] sm:pb-[10.73] "> <img src="assets/images/table-img.jpg" alt="table-image" className="lg:w-[52.95px] sm:w-[33.42px] lg:h-[36px] sm:h-[22.72px]" /> </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[221px] sm:pl-[41px]"> 33 </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[268px] sm:pl-[78px] "> 40000 </td>
+                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[255px] sm:pl-[70.52px] lg:pr-[175px] sm:pr-[43.38px]"> 1009 </td>
                     </tr>
                 </tbody>
             </table>
-            <div className=" h-[55px] w-full  lg:flex sm:hidden justify-end">
+            <div className=" lg:flex sm:hidden lg:h-[55px] lg:w-full  lg:justify-end">
                 <div className=" h-11 w-fit flex mr-[45px]  ">
                     <button className="my-[17px]">
                         <img src="assets/icons/icon-left.svg" />

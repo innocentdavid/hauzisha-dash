@@ -6,9 +6,9 @@ import { FaAngleRight } from "react-icons/fa"
 
 export default function Home() {
   return (
-    <div className='bg-[#f9f9f9] p-[20px]'>
+    <div className='bg-[#f9f9f9] p-[20px] '>
       <h1 className='font-bold'>Dashboard</h1>
-      <div className="bg-white p-[21px] rounded-[8px]">
+      <div className="bg-white lg:p-[21px] rounded-[8px]">
         <div className="">
           <div className="flex justify-between items-center">
             <h2 className="text-[18px]">Perfomance</h2>
@@ -25,8 +25,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        {/* <ChartCompoent /> */}
+        <ChartCompoent />
       </div>
 
       <div className="mt-5 grid grid-cols-1 lg:grid-cols-3 gap-4">
@@ -69,7 +68,7 @@ export default function Home() {
                   <div className="whitespace-nowrap">10% (-2)</div>
                 </div>
               </div>
-              
+
               <div className="flex justify-between gap-2 whitespace-normal">
                 <div className="flex items-center gap-3">
                   <div className="min-w-[10px] min-h-[10px] rounded-full bg-accent4"></div>
@@ -86,7 +85,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className="rounded-[8px] bg-white">
           <div className="border-b border-b-[#bfbfbf66] overflow-hidden py-3 px-[15px] flex items-center justify-between">
             <div className="">Sale Listings</div>
@@ -126,7 +124,7 @@ export default function Home() {
                   <div className="whitespace-nowrap">10% (-2)</div>
                 </div>
               </div>
-              
+
               <div className="flex justify-between gap-2 whitespace-normal">
                 <div className="flex items-center gap-3">
                   <div className="min-w-[10px] min-h-[10px] rounded-full bg-accent4"></div>
@@ -182,7 +180,7 @@ export default function Home() {
                   <div className="whitespace-nowrap">10% (-2)</div>
                 </div>
               </div>
-              
+
               <div className="flex justify-between gap-2 whitespace-normal">
                 <div className="flex items-center gap-3">
                   <div className="min-w-[10px] min-h-[10px] rounded-full bg-accent4"></div>
