@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+a {
+  text-decoration: none !important;
+}
+
+.apexcharts-legend {
+  display: none !important;
+}
