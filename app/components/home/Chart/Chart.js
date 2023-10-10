@@ -39,11 +39,11 @@ export default function ChartCompoent() {
       dataLabels: {
         enabled: false,
       },
-      // stroke: {
-      //   width: [5, 7, 5],
-      //   curve: "straight",
-      //   dashArray: [0, 8, 5],
-      // },
+      stroke: {
+        width: [3,3],
+        curve: "straight",
+        // dashArray: [0, 8, 5],
+      },
       title: {
 
       },
