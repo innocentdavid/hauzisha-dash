@@ -13,17 +13,17 @@ export default function Sidebar({ isOpen }) {
     // };
     return (
         <div className={`h-[calc(100vh-10vh)] w-full text-[#818183] border-r pt-[25px]`}>
-            <SidebarItems iconLink={"assets/icons/icon-dashboard.svg"} title={"My Dashboard"} path="/" />
-            <SidebarItems iconLink={"assets/icons/icon-analysis.svg"} title={"Analytics"} path="/analytics" />
-            <SidebarItemParent iconLink={"assets/icons/icon-list.svg"} title={"My Listings"}
+            <SidebarItems iconLink={"/assets/icons/icon-dashboard.svg"} title={"My Dashboard"} path="/" />
+            <SidebarItems iconLink={"/assets/icons/icon-analysis.svg"} title={"Analytics"} path="/analytics" />
+            <SidebarItemParent iconLink={"/assets/icons/icon-list.svg"} title={"My Listings"}
                 match={["/houses-for-rent", "/houses-for-sale"]}
                 childrenElements={[
                     { title: 'Houses For Rent', path: '/houses-for-rent' },
                     { title: 'Houses For Sale', path: '/houses-for-sale' },
                 ]}
             />
-            <SidebarItems iconLink={"assets/icons/icon-call.svg"} title={"Call Back Requests"} path="/analytics" />
-            <SidebarItems iconLink={"assets/icons/book.svg"} title={"Bookings"} path="/analytics" />
+            <SidebarItems iconLink={"/assets/icons/icon-call.svg"} title={"Call Back Requests"} path="/analytics" />
+            <SidebarItems iconLink={"/assets/icons/book.svg"} title={"Bookings"} path="/analytics" />
             <div className='w-[294px] h-[84px] mt-3'>
             <div className='min-w-[168px] h-[18px] text-[14px] pl-3 '>
                  Search a listing on Hauzisha
@@ -32,11 +32,11 @@ export default function Sidebar({ isOpen }) {
             </div>
 
 
-            <SidebarItems iconLink={"assets/icons/icon-bill.svg"} title={"Billing"} path="/analytics" />
-            <SidebarItems iconLink={"assets/icons/icon-share.svg"} title={"Referral"} path="/analytics" />
-            <SidebarItems iconLink={"assets/icons/icon-dp.svg"} title={"Profile"} path="/analytics" />
-            <SidebarItems iconLink={"assets/icons/faq.svg"} title={"How it works"} path="/analytics" />
-            <SidebarItems iconLink={"assets/icons/logout.svg"} title={"Logout"} path="/analytics" />
+            <SidebarItems iconLink={"/assets/icons/icon-bill.svg"} title={"Billing"} path="/analytics" />
+            <SidebarItems iconLink={"/assets/icons/icon-share.svg"} title={"Referral"} path="/analytics" />
+            <SidebarItems iconLink={"/assets/icons/icon-dp.svg"} title={"Profile"} path="/analytics" />
+            <SidebarItems iconLink={"/assets/icons/faq.svg"} title={"How it works"} path="/analytics" />
+            <SidebarItems iconLink={"/assets/icons/logout.svg"} title={"Logout"} path="/analytics" />
 
             {/* <li className="flex">
                     <span className="mr-3">
