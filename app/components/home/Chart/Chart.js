@@ -1,9 +1,18 @@
 "use client"
 
-import ReactApexChart from "react-apexcharts";
+import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
+
+const ReactApexChart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 
 export default function ChartCompoent() {
+  const [chartLoaded, setChartLoaded] = useState(false);
+
+  useEffect(() => {
+    setChartLoaded(true);
+  }, []);
+
   const state = {
     series: [
       {
@@ -36,7 +45,7 @@ export default function ChartCompoent() {
       //   dashArray: [0, 8, 5],
       // },
       title: {
-       
+
       },
       legend: {
         tooltipHoverFormatter: function (val, opts) {
@@ -103,12 +112,12 @@ export default function ChartCompoent() {
 
   return (
     <div id="chart">
-      <ReactApexChart
+      {chartLoaded && <ReactApexChart
         options={state.options}
         series={state.series}
         type="line"
         height={350}
-      />
+      />}
     </div>
   );
 };
