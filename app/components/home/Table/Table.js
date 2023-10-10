@@ -58,15 +58,15 @@ export default function TableDash() {
                 </tbody>
             </table>
             <div className="hidden lg:flex h-[55px] w-full  justify-end">
-                <div className=" h-11 w-fit flex mr-[225px]  ">
+                <div className=" h-11 w-fit flex mr-[355px]  ">
                     <button className="my-[17px]">
-                        <Image src="/assets/icons/icon-left.svg" width={53} height={53} alt='className="h-[27.41px] w-[28.1px]' />
+                        <Image src="/assets/icons/icon-left.svg" width={23} height={23} alt=''/>
                     </button>
-                    <div className=" text-[#818183] text-[14px] my-[22px] mx-7">
+                    <div className=" text-[#818183] text-[14px] mt-[18px] mx-7">
                         Rows Per Page -5 (1-5 of 45)
                     </div>
                     <button className="my-[17px]">
-                        <Image src="/assets/icons/icon-next.svg" alt='' width={53} height={53} className="h-[27.41px] w-[28.1px]" />
+                        <Image src="/assets/icons/icon-next.svg" alt='' width={23} height={23} />
                     </button>
                 </div>
             </div>
