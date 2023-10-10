@@ -30,7 +30,7 @@ export default function Header() {
                             <Image src="/assets/icons/icon-sms.svg" width={24} height={24} alt={""} className="min-w-[24px] min-h-[24px] w-[24px] h-[24px]" />
                         </div>
                         <div className="">
-                            <Image src="/assets/icons/vector.svg" width={24} height={24} alt={""} className="min-w-[24px] min-h-[24px] w-[24px] h-[24px]" />
+                            <Image src="/assets/icons/Vector.svg" width={24} height={24} alt={""} className="min-w-[24px] min-h-[24px] w-[24px] h-[24px]" />
                         </div>
                         <div className="md:block hidden min-h-[40px] min-w-[1.5px] bg-[#E0E0E0]"></div>
                         <div className="w-fit h-fit hidden md:block">
