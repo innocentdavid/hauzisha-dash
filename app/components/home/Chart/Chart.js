@@ -14,10 +14,10 @@ export default function ChartCompoent() {
         name: "Page Views",
         data: [35, 41, 62, 42, 13, 18, 29, 37, 36, 51, 32, 35],
       },
-      {
-        name: "Total Visits",
-        data: [87, 57, 74, 99, 75, 38, 62, 47, 82, 56, 45, 47],
-      },
+      // {
+      //   name: "Total Visits",
+      //   data: [87, 57, 74, 99, 75, 38, 62, 47, 82, 56, 45, 47],
+      // },
     ],
     options: {
       chart: {
@@ -30,11 +30,11 @@ export default function ChartCompoent() {
       dataLabels: {
         enabled: false,
       },
-      stroke: {
-        width: [5, 7, 5],
-        curve: "straight",
-        dashArray: [0, 8, 5],
-      },
+      // stroke: {
+      //   width: [5, 7, 5],
+      //   curve: "straight",
+      //   dashArray: [0, 8, 5],
+      // },
       title: {
        
       },
@@ -112,10 +112,3 @@ export default function ChartCompoent() {
     </div>
   );
 };
-
-
-
-
-
-
-
