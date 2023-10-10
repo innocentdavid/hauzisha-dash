@@ -40,7 +40,7 @@ export default function ChartCompoent() {
         enabled: false,
       },
       stroke: {
-        width: [3,3],
+        width: [3, 3],
         curve: "straight",
         // dashArray: [0, 8, 5],
       },
