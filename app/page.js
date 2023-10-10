@@ -14,20 +14,25 @@ export default function Home() {
             <h2 className="text-[18px]">Perfomance</h2>
             <Link href="#" className="flex items-center gap-2 text-sm">Full Report <FaAngleRight /></Link>
           </div>
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between  w-full h-fit space-y-2 text-xs">
             <div className="flex items-center gap-2">
               <div className="min-w-[29px] min-h-[18px] bg-primary rounded-[3px]"></div>
-              <span className="">46 Contact Requests</span>
+              <span>46 Contact Requests</span>
             </div>
-            <div className="flex items-center gap-2">
-              <div className="min-w-[29px] min-h-[18px] bg-accent1 rounded-[3px]"></div>
-              <span className="">14 Callback Requests</span>
+            <div className=" items-center gap-2 justify-end ml-2 ">
+              <div className="flex pl-11">
+                <div className="min-w-[29px] max-h-[18px] bg-accent1 rounded-[3px] "></div>
+                <span className="lg:text-[14px] sm:text-sm">14 Callback Requests</span>
+              </div>
             </div>
+
+
+
+
           </div>
         </div>
         <ChartCompoent />
       </div>
-
       <div className="mt-5 grid grid-cols-1 lg:grid-cols-3 gap-4">
         <div className="rounded-[8px] bg-white">
           <div className="border-b border-b-[#bfbfbf66] overflow-hidden py-3 px-[15px] flex items-center justify-between">
@@ -200,7 +205,7 @@ export default function Home() {
       </div>
 
       <TableDash />
-    </div>
+    </div >
   )
 }
 
