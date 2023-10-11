@@ -1,75 +1,116 @@
+"use client"
 import Image from 'next/image';
-export default function TableDash() {
-    return (
-        <div className=" mt-[20px]">
-            <h1> Top Listings </h1>
-            <table className="lg:h-[371px] sm:h-[286px] lg:w-[1096px] sm:w-[344px] mx-auto text-[#818183] lg:text-[14px] sm:text-sm ">
-                <thead>
-                    <tr>
-                        <th className=" lg:pl-[20px] sm:pl-[12.06px] pt-[14px] pb-[15px] ">
-                            <div className="flex items-center">
-                                Listings
-                                <Image src="/assets/icons/arrow.svg" height={5} width={10} alt="arrow-icom" className="ml-[8px]" />
-                            </div>
-                        </th>
-                        <th className="lg:pl-[209px] sm:pl-[33.12px] pt-[14px] pb-[15px]">
-                            <div className="flex items-center">
-                                Contacts
-                                <Image src="/assets/icons/arrow.svg" height={5} width={10} alt="arrow-icom" className="ml-[8px]" />
-                            </div>
+import * as React from 'react';
+import Paper from '@mui/material/Paper';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TablePagination from '@mui/material/TablePagination';
+import TableRow from '@mui/material/TableRow';
 
-                        </th>
-                        <th className="lg:pl-[209px] sm:pl-[40.64px] lg:pt-[14px] sm:pt-[8.84px] lg:pb-[15px] sm:pb-[9.83px]">
-                            <div className="flex items-center ">
-                                Listing Views
-                                <Image src="/assets/icons/arrow.svg" height={5} width={10} alt="arrow-icom" className="ml-[2px]" />
-                            </div>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr className="h-[68px] w-[1096px]">
+const columns = [
+  { id: 'name', label: 'Listings', minWidth: 100 },
+  { id: 'code', label: 'Contacts', minWidth: 100 },
+  {
+    id: 'population',
+    label: 'Listing views',
+    minWidth: 100,
+    format: (value) => value.toLocaleString('en-US'),
+  },
+ 
+];
 
-                        <td className=" lg:pl-[20px] sm:pl-[12.06px] lg:pt-[15px] sm:pt-[9.47] lg:pb-[17px] sm:pb-[10.73]">  
-                        <Image src="/assets/images/table-img.jpg" alt="table-image" width={53} height={53} className="lg:w-[52.95px] sm:w-[33.42px] lg:h-[36px] sm:h-[22.72px]" /> </td>
-                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[221px] sm:pl-[41px]"> 33 </td>
-                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[268px] sm:pl-[78px]"> 40000 </td>
-                    </tr>
-                    <tr className="h-[68px]">
-                        <td className=" lg:pl-[20px] sm:pl-[12.06px] lg:pt-[15px] sm:pt-[9.47] lg:pb-[17px] sm:pb-[10.73] "> <Image src="/assets/images/table-img.jpg" alt="table-image" width={53} height={53} className="lg:w-[52.95px] sm:w-[33.42px] lg:h-[36px] sm:h-[22.72px]" /> </td>
-                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[221px] sm:pl-[41px]"> 33 </td>
-                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[268px] sm:pl-[78px]"> 40000 </td>
-                    </tr>
-                    <tr className="h-[76px]">
-                        <td className=" lg:pl-[20px] sm:pl-[12.06px] lg:pt-[15px] sm:pt-[9.47] lg:pb-[17px] sm:pb-[10.73] "> <Image src="/assets/images/table-img.jpg" alt="table-image" width={53} height={53} className="lg:w-[52.95px] sm:w-[33.42px] lg:h-[36px] sm:h-[22.72px]" /> </td>
-                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[221px] sm:pl-[41px]"> 33 </td>
-                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[268px] sm:pl-[78px]"> 40000 </td>
-                    </tr>
-                    <tr className="h-[68px]">
-                        <td className="lg:pl-[20px] sm:pl-[12.06px] lg:pt-[15px] sm:pt-[9.47] lg:pb-[17px] sm:pb-[10.73] "> <Image src="/assets/images/table-img.jpg" alt="table-image" width={53} height={53} className="lg:w-[52.95px] sm:w-[33.42px] lg:h-[36px] sm:h-[22.72px]" /> </td>
-                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[221px] sm:pl-[41px]"> 33 </td>
-                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[268px] sm:pl-[78px] "> 40000 </td>
-                    </tr>
-                    <tr className="h-[6px]">
-                        <td className="lg:pl-[20px] sm:pl-[12.06px] lg:pt-[15px] sm:pt-[9.47] lg:pb-[17px] sm:pb-[10.73] "> <Image src="/assets/images/table-img.jpg" alt="table-image" width={53} height={53} className="lg:w-[52.95px] sm:w-[33.42px] lg:h-[36px] sm:h-[22.72px]" /> </td>
-                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[221px] sm:pl-[41px]"> 33 </td>
-                        <td className="lg:py-[25px] sm:py-[15px] lg:pl-[268px] sm:pl-[78px] "> 40000 </td>
-                    </tr>
-                </tbody>
-            </table>
-            <div className="hidden lg:flex h-[55px] w-full  justify-end">
-                <div className=" h-11 w-fit flex mr-[355px]  ">
-                    <button className="my-[17px]">
-                        <Image src="/assets/icons/icon-left.svg" width={23} height={23} alt=''/>
-                    </button>
-                    <div className=" text-[#818183] text-[14px] mt-[18px] mx-7">
-                        Rows Per Page -5 (1-5 of 45)
-                    </div>
-                    <button className="my-[17px]">
-                        <Image src="/assets/icons/icon-next.svg" alt='' width={23} height={23} />
-                    </button>
-                </div>
-            </div>
-        </div>
-    )
+function createData(name, code, population) {
+
+  return { name, code, population };
 }
+
+const rows = [
+  createData('/assets/images/table-img.jpg', 40000 , 1009),
+  createData('/assets/images/table-img.jpg', 40000 , 1009),
+  createData('/assets/images/table-img.jpg', 40000 , 1009),
+  createData('/assets/images/table-img.jpg', 40000 , 1009),
+  createData('/assets/images/table-img.jpg', 40000 , 1009),
+  createData('/assets/images/table-img.jpg', 40000 , 1009),
+  createData('/assets/images/table-img.jpg', 40000 , 1009),
+  createData('/assets/images/table-img.jpg', 40000 , 1009),
+];
+
+
+export default function TableDash() {
+  const [page, setPage] = React.useState(0);
+  const [rowsPerPage, setRowsPerPage] = React.useState(5);
+
+  const handleChangePage = (event, newPage) => {
+    setPage(newPage);
+  };
+
+  const handleChangeRowsPerPage = (event) => {
+    setRowsPerPage(+event.target.value);
+    setPage(0);
+  };
+  return (
+    <Paper sx={{ width: '85%' }} className='mx-auto mt-[20px]'>
+      <div className='w-[94px] h-[23px] lg:ml-[21px] sm:ml-[14px]  lg:py-[23px] sm:py-[15px] '>
+       <h1 className='lg:text-[18px] sm:text-[14px]'> Top Listings </h1>
+       </div>
+      <TableContainer sx={{ maxHeight: '100%', overflowY: 'hidden' }} >
+        <Table >
+          <TableHead>
+            <TableRow>
+              {columns.map((column) => (
+                <TableCell
+                  key={column.id}
+                  align={column.align}
+                  style={{ top: 40, minWidth: column.minWidth }}
+                >
+                  <div className="flex items-center">
+                  {column.label}
+                   <Image src="/assets/icons/arrow.svg" height={5} width={10} alt="arrow-icon" className="ml-[8px]" />
+                  </div>
+                </TableCell>
+              ))}
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {rows
+              .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+              .map((row) => {
+                return (
+                  <TableRow hover role="checkbox" tabIndex={-1} key={row.code}>
+                    {columns.map((column) => {
+                      const value = row[column.id];
+                      return (
+                        <TableCell key={column.id} align={column.align}>
+                        {column.id === 'name' && (
+                          <Image src={value} alt="Flag" width={53} height={53} className="lg:w-[52.95px] sm:w-[33.42px] lg:h-[36px] sm:h-[22.72px]" /> 
+                        )}
+                        {column.id !== 'name' && (
+                          column.format && typeof value === 'number'
+                            ? column.format(value)
+                            : value
+                        )}
+                      </TableCell>
+                      );
+                    })}
+                  </TableRow>
+                );
+              })}
+          </TableBody>
+        </Table>
+      </TableContainer>
+      <TablePagination
+        rowsPerPageOptions={[5, 10, 25]}
+        component="div"
+        count={rows.length}
+        rowsPerPage={rowsPerPage}
+        page={page}
+        onPageChange={handleChangePage}
+        onRowsPerPageChange={handleChangeRowsPerPage}
+      />
+    </Paper>
+  );
+}
+
