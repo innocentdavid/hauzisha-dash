@@ -54,8 +54,8 @@ export default function TableDash() {
   return (
     <Paper sx={{ width: '100%' }} className=' mt-[20px]'>   
       <TableContainer sx={{ maxHeight: '100%', overflowY: 'hidden' }} >
-      <div className='w-[94px] h-[23px] mt-[21px] ml-[21px] '>
-       <h1 className='lg:text-[18px] sm:text-[14px] '> Top Listings </h1>
+      <div className='w-[94px] h-[23px]  ml-[21px] '>
+       <h1 className='lg:text-[18px] sm:text-[14px] mt-[21px]'> Top Listings </h1>
        </div>
         <Table >
           <TableHead>
