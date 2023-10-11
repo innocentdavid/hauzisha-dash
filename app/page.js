@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             <div className=" items-center gap-2 justify-end ml-2 ">
               <div className="flex pl-11">
-                <div className="min-w-[29px] max-h-[18px] bg-accent1 rounded-[3px] "></div>
+                <div className="min-w-[29px] max-h-[18px] bg-accent1 rounded-[3px] mr-2 "></div>
                 <span className="lg:text-[14px] sm:text-sm">14 Callback Requests</span>
               </div>
             </div>
@@ -42,8 +42,8 @@ export default function Home() {
               <div className="rounded-[8px] py-[7px] px-[22px] cursor-pointer">Week</div>
             </div>
           </div>
-          <div className="flex justify-between gap-2 items-center py-[22px] px-[15px]">
-            <div className=""><CircleChart /></div>
+          <div className="flex  w-[355px] h-[207px] gap-2 items-center py-[22px] px-[15px] text-[12px]">
+            <div className="mr-[24px]"><CircleChart /></div>
 
             <div className="flex flex-col gap-2">
               <div className="flex justify-between gap-2">
@@ -98,8 +98,8 @@ export default function Home() {
               <div className="rounded-[8px] py-[7px] px-[22px] cursor-pointer">Week</div>
             </div>
           </div>
-          <div className="flex justify-between gap-2 items-center py-[22px] px-[15px]">
-            <div className=""><CircleChart /></div>
+          <div className="flex w-[355px] h-[207px] gap-2 items-center py-[22px] px-[15px] text-[12px]">
+            <div className="mr-[24px]"><CircleChart /> </div>
 
             <div className="flex flex-col gap-2">
               <div className="flex justify-between gap-2">
@@ -154,8 +154,8 @@ export default function Home() {
               <div className="rounded-[8px] py-[7px] px-[22px] cursor-pointer">Week</div>
             </div>
           </div>
-          <div className="flex justify-between gap-2 items-center py-[22px] px-[15px]">
-            <div className=""><CircleChart /></div>
+          <div className="flex  w-[355px] h-[207px] gap-2 items-center py-[22px] px-[15px] text-[12px]">
+            <div className="mr-[24px]"><CircleChart /></div>
 
             <div className="flex flex-col gap-2">
               <div className="flex justify-between gap-2">
