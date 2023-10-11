@@ -34,7 +34,7 @@ export default function Header() {
                         </div>
                         <div className="md:block hidden min-h-[40px] min-w-[1.5px] bg-[#E0E0E0]"></div>
                         <div className="w-fit h-fit hidden md:block">
-                            <Image src="/assets/images/pic.jpg" alt={""} width={56} height={56} className="lg:block sm:hidden min-w-[56px] min-h-[56px] w-[56px] h-[56px]  rounded-full" />
+                            <Image src="/assets/images/pic.jpg" alt={""} width={40} height={40} className="lg:block sm:hidden min-w-[56px] min-h-[56px] w-[56px] h-[56px]  rounded-full" />
                         </div>
                     </div>
                 </div>
