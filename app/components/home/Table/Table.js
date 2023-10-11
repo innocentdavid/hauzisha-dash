@@ -52,7 +52,7 @@ export default function TableDash() {
     setPage(0);
   };
   return (
-    <Paper sx={{ width: '85%' }} className='mx-auto mt-[20px]'>
+    <Paper sx={{ width: '100%' }} className=' mt-[20px]'>
       <div className='w-[94px] h-[23px] lg:ml-[21px] sm:ml-[14px]  lg:py-[23px] sm:py-[15px] '>
        <h1 className='lg:text-[18px] sm:text-[14px]'> Top Listings </h1>
        </div>
